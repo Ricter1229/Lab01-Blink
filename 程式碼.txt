@@ -1,0 +1,80 @@
+//(1)
+int led = 9;
+void setup()
+{
+  pinMode(led, OUTPUT);
+}
+void loop()
+{
+digitalWrite(led, HIGH);
+ 	 delay(1000); // Wait for 1000 millisecond(s)
+ 	 digitalWrite(led, LOW);
+ 	 delay(1000); // Wait for 1000 millisecond(s)
+}
+
+//(2)
+int led = 9;
+void setup()
+{
+  pinMode(led, OUTPUT);
+}
+
+void loop()
+{
+  
+  //s
+  for(int i=0; i<3; i++){
+ 	 digitalWrite(led, HIGH);
+ 	 delay(100); // Wait for 100 millisecond(s)
+ 	 digitalWrite(led, LOW);
+ 	 delay(100); // Wait for 100 millisecond(s)
+  }
+  delay(100); // Wait for 100 millisecond(s)
+
+  //o
+  for(int i=0; i<3; i++){
+ 	 digitalWrite(led, HIGH);
+ 	 delay(300); // Wait for 300 millisecond(s)
+ 	 digitalWrite(led, LOW);
+ 	 delay(100); // Wait for 100 millisecond(s)
+  }
+  delay(100); // Wait for 100 millisecond(s)
+  
+  //s
+  for(int i=0; i<3; i++){
+ 	 digitalWrite(led, HIGH);
+ 	 delay(100); // Wait for 100 millisecond(s)
+ 	 digitalWrite(led, LOW);
+ 	 delay(100); // Wait for 100 millisecond(s)
+  }
+  delay(300); // Wait for 300 millisecond(s)
+}
+//(3) 2­¿
+int led = 9;
+void setup()
+{
+  pinMode(led, OUTPUT);
+}
+void loop()
+{
+digitalWrite(led, HIGH);
+ 	 delay(2000); // Wait for 2000 millisecond(s)
+ 	 digitalWrite(led, LOW);
+ 	 delay(2000); // Wait for 2000 millisecond(s)
+}
+
+
+
+//(4)1/2­¿
+int led = 9;
+void setup()
+{
+  pinMode(led, OUTPUT);
+}
+void loop()
+{
+digitalWrite(led, HIGH);
+ 	 delay(500); // Wait for 500 millisecond(s)
+ 	 digitalWrite(led, LOW);
+ 	 delay(500); // Wait for 500 millisecond(s)
+}
